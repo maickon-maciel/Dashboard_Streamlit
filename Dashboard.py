@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
+import plotly as pl
 import plotly.express as px
 
 st.set_page_config(layout='wide')
@@ -128,5 +129,6 @@ with aba3:
                                         text_auto=True,
                                         title=f'Top {qtd_vendedores} vendedores (quantidade de vendas)')
         st.plotly_chart(fig_vendas_vendedores)
+
 
 # st.dataframe(dados)
