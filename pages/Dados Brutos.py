@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 from datetime import datetime
-import time 
+import time
 
 @st.cache_data
 def converte_csv(df):
